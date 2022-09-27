@@ -9,6 +9,7 @@ namespace PresentationLayer.ViewModels
 {
     public class DepartmentsViewModel
     {
+        public int Id { get; set; }
         public Department Department { get; set; } = new Department();
         public List<EmployeeViewModel> Employees { get; set; } = new List<EmployeeViewModel>();
     }
