@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-    internal class SampleData
+    public class SampleData
     {
         public static void InitData(EfDbContext context)
         {
