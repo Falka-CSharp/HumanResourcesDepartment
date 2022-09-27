@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Interfaces
 {
-    internal interface IEmployees
+    public interface IEmployees
     {
         IEnumerable<Employee> GetAllEmployees(bool includeDepartments = false);
         Employee GetEmployeeById(int employeeId, bool includeDepartments = false);
